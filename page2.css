@@ -88,9 +88,15 @@ body {
     width: 27px ;
     border-radius: 100% ;
     background-color: aqua;
+    transition: all 200ms;
+
 
 
     
+}
+
+.profile .link:hover {
+    transform: translate(2px ,6px);
 }
 
 .profile .social {
@@ -99,6 +105,20 @@ body {
     justify-content: space-between ;
     align-items: flex-start ;
     font-size : 24px  ;
+    
+    
+
+}
+
+.social a:hover {
+    color : red ;
+    font-size: 30px ;
+    padding-top: -30px ;
+} 
+
+
+
+
     
     
 
